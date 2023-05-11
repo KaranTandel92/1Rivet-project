@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "name": "Karan",
+      "project": "BA",
+      "designation": "Developer",
+      "duration": "Full Day",
+      "email": "karan.tandel92@gmail.com"
+    }
+  ]
+}
