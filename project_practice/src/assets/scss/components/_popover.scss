@@ -1,0 +1,34 @@
+.popover {
+  width: 540px;
+}
+
+.bs-popover-bottom > .popover-arrow::before {
+  border-width: 0;
+}
+
+.bs-popover-end > .popover-arrow::before {
+  border-width: 0;
+}
+
+.bs-popover-start > .popover-arrow::before {
+  border-width: 0;
+}
+
+.bs-popover-top > .popover-arrow::before {
+  border-width: 0;
+}
+
+.popover {
+  &.bs-popover-bottom {
+    margin-top: -15px !important;
+  }
+  &.bs-popover-start {
+    margin-right: -15px !important;
+  }
+  &.bs-popover-top {
+    margin-bottom: -10px !important;
+  }
+  &.bs-popover-end {
+    margin-left: -15px !important;
+  }
+}

@@ -1,0 +1,46 @@
+.sidebar {
+  width: 280px;
+  height: 100%;
+}
+li {
+  list-style-type: none;
+}
+.sidemenu {
+  font-weight: 600;
+  font-size: 16px;
+  color: #8694aa;
+}
+.deskbook-heading {
+  font-weight: 700;
+  font-size: 30px;
+}
+.deskbook-heading {
+  font-family: $font-family-baloo;
+}
+.list {
+  cursor: pointer;
+  padding: 16px;
+  &:hover {
+    background-color: #eaf2fe;
+  }
+}
+.nav-link {
+  padding: 16px;
+  position: relative;
+}
+.nav-item:hover .nav-link {
+  background-color: #eaf2fe;
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: #2984f7;
+    height: 28px;
+    width: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  //   border-right: 4px solid #2984f7;
+}

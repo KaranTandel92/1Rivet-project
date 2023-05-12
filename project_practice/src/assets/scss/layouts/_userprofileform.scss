@@ -1,0 +1,124 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.userprofile-form {
+  width: 100%;
+  background-color: #fff;
+  .info-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: $text-muted;
+  }
+  .field-label {
+    padding-left: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #233550;
+    .mandatory-field {
+      color: #ea4234;
+    }
+  }
+  .designation-input,
+  .modeofwork-input,
+  .email-input,
+  .phoneno-input,
+  .project-input {
+    background-color: $white;
+  }
+  .project-input::placeholder,
+  .email-input::placeholder,
+  .phoneno-input::placeholder {
+    color: $text-gray-400;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+.form-header {
+  .form-header-title {
+    color: $text-primary;
+    font-weight: $font-weight-bold;
+    font-size: 22px;
+    padding: 21px;
+  }
+}
+.user-details {
+  .uploadandeditimg {
+    position: relative;
+    .editimg {
+      height: 40px;
+      width: 40px;
+      position: absolute;
+      top: 77px;
+      left: 77px;
+    }
+  }
+  .useremail {
+    color: $text-muted;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .username {
+    font-size: 22px;
+    font-weight: $font-weight-bold;
+    color: $text-primary;
+    outline: 0;
+    width: 100%;
+  }
+}
+.form-buttons {
+  box-shadow: 0 -4px 8px -8px #333;
+  .save-btn {
+    color: $white;
+    border-radius: 4px;
+    height: 50px;
+    width: 120px;
+  }
+}
+.day-label {
+  .selectdays {
+    display: none;
+  }
+  .selectdays:checked ~ .day {
+    background-color: $primary;
+    color: $white;
+  }
+  .day {
+    height: 72px;
+    width: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7ea;
+    padding: 21px 11px;
+    color: $text-gray-400;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+.tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+.offcanvas-end {
+  border-left: 0px;
+}
+.offcanvas {
+  transition: transform 0.4s ease-in-out;
+}
+.row {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+.cityfloor {
+  padding-left: 9px;
+  padding-right: 9px;
+}
